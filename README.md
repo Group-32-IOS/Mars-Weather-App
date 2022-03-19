@@ -33,3 +33,50 @@ Using NASA Insight API to get real-time weather of Mars
 * Labels indicating real time temperature 
 
 **Optional Nice-to-have Stories**
+
+* [fill in your required user stories here]
+* ...
+
+### 2. Screen Archetypes
+
+* [WeatherViewController]
+   * [View realtime weather of MARS]
+   * [View the weather in the past of MARS] 
+* [MarsViewController]
+   * [Have a map of MARS]
+   * [Interactive map click and move]
+   * ...
+
+### 3. Navigation
+
+**Tab Navigation** (Tab to Screen)
+
+* IPhone screen with Mars app logo 
+* First screen will have the weather info, and there will be two tabs that allows the user to go between wheather and planet Mars 
+* [fill out your third tab]
+
+**Flow Navigation** (Screen to Screen)
+
+* [list first screen here]
+   * [list screen navigation here]
+   * ...
+* [list second screen here]
+   * [list screen navigation here]
+   * ...
+
+## Wireframes
+[Add picture of your hand sketched wireframes in this section]
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+### [BONUS] Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
+
+## Schema 
+[This section will be completed in Unit 9]
+### Models
+[Add table of models]
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
