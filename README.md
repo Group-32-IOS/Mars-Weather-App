@@ -39,12 +39,12 @@ Using NASA Insight API to get real-time weather of Mars
 
 ### 2. Screen Archetypes
 
-* WeatherViewController
-   * View realtime weather of MARS
-   * View the weather in the past of MARS 
-* MarsViewController
-   * Have a map of MARS
-   * Interactive map click and move
+* WeatherViewController - Stream
+   * View realtime weather of MARS]
+   * View the weather in the past of MARS] 
+* MarsViewController] - Detail
+   * Have a map of MARS]
+   * Interactive map click and move]
 
 ### 3. Navigation
 
