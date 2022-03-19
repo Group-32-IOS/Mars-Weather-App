@@ -61,6 +61,7 @@ Using NASA Insight API to get real-time weather of Mars
 
 ## Wireframes
 <img src=![image](https://user-images.githubusercontent.com/98177657/159135983-0c1af81b-60a2-4922-bff9-e5b28ec700f6.png) width=600>!
+![alt text](https://user-images.githubusercontent.com/98177657/159135983-0c1af81b-60a2-4922-bff9-e5b28ec700f6.png)
 
 
 ### [BONUS] Digital Wireframes & Mockups
