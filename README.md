@@ -14,12 +14,12 @@ Using NASA Insight API to get real-time weather of Mars
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Photos/ Weather App
+- **Mobile:** Tab Bar view of realtime Mars weather and interactive map
+- **Story:** Considering the billions of dollars spent on Mars space exploration we have come up with A detailed app about Mars that allows you to learn more about the planet.
+- **Market:** Anyone who is interested in space exploration
+- **Habit:** Consumers who can check the weather of MARS everyday due to realtime weather updates
+- **Scope:** V1 only allows mars weather and mars map. V2 add rover information. V3 expand and make it a bigger space application with features such as Satelites and possible creation features. V4 allow people to buy property on Mars through NFTs.
 
 ## Product Spec
 
