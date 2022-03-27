@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		999369D2139B8FBAE311FF6A /* Pods_Mars_Weather_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9158BFBF6E5785583B632249 /* Pods_Mars_Weather_App.framework */; };
+		EB35023D27EF90070017AC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35023C27EF90070017AC50 /* AppDelegate.swift */; };
+		EB35023F27EF90070017AC50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35023E27EF90070017AC50 /* SceneDelegate.swift */; };
+		EB35024127EF90070017AC50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35024027EF90070017AC50 /* ViewController.swift */; };
+		EB35024427EF90070017AC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB35024227EF90070017AC50 /* Main.storyboard */; };
+		EB35024627EF90080017AC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB35024527EF90080017AC50 /* Assets.xcassets */; };
+		EB35024927EF90080017AC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB35024727EF90080017AC50 /* LaunchScreen.storyboard */; };
+		EB35025427EF90080017AC50 /* Mars_Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35025327EF90080017AC50 /* Mars_Weather_AppTests.swift */; };
+		EB35025E27EF90080017AC50 /* Mars_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35025D27EF90080017AC50 /* Mars_Weather_AppUITests.swift */; };
+		EB35026027EF90080017AC50 /* Mars_Weather_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35025F27EF90080017AC50 /* Mars_Weather_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB35025027EF90080017AC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB35023127EF90070017AC50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB35023827EF90070017AC50;
+			remoteInfo = "Mars-Weather-App";
+		};
+		EB35025A27EF90080017AC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB35023127EF90070017AC50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB35023827EF90070017AC50;
+			remoteInfo = "Mars-Weather-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A41C3745C5826E5F624DCA5 /* Pods-Mars-Weather-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-Weather-App.debug.xcconfig"; path = "Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App.debug.xcconfig"; sourceTree = "<group>"; };
+		9158BFBF6E5785583B632249 /* Pods_Mars_Weather_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mars_Weather_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32E19634D666BF08FBF169D /* Pods-Mars-Weather-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-Weather-App.release.xcconfig"; path = "Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App.release.xcconfig"; sourceTree = "<group>"; };
+		EB35023927EF90070017AC50 /* Mars-Weather-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mars-Weather-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35023C27EF90070017AC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB35023E27EF90070017AC50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB35024027EF90070017AC50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB35024327EF90070017AC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB35024527EF90080017AC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB35024827EF90080017AC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB35024A27EF90080017AC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB35024F27EF90080017AC50 /* Mars-Weather-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mars-Weather-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35025327EF90080017AC50 /* Mars_Weather_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_Weather_AppTests.swift; sourceTree = "<group>"; };
+		EB35025927EF90080017AC50 /* Mars-Weather-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mars-Weather-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35025D27EF90080017AC50 /* Mars_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_Weather_AppUITests.swift; sourceTree = "<group>"; };
+		EB35025F27EF90080017AC50 /* Mars_Weather_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_Weather_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB35023627EF90070017AC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999369D2139B8FBAE311FF6A /* Pods_Mars_Weather_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35024C27EF90080017AC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35025627EF90080017AC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F92991B78CB58788C919283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A41C3745C5826E5F624DCA5 /* Pods-Mars-Weather-App.debug.xcconfig */,
+				C32E19634D666BF08FBF169D /* Pods-Mars-Weather-App.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C27567893B8B33701BB6C5DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9158BFBF6E5785583B632249 /* Pods_Mars_Weather_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB35023027EF90070017AC50 = {
+			isa = PBXGroup;
+			children = (
+				EB35023B27EF90070017AC50 /* Mars-Weather-App */,
+				EB35025227EF90080017AC50 /* Mars-Weather-AppTests */,
+				EB35025C27EF90080017AC50 /* Mars-Weather-AppUITests */,
+				EB35023A27EF90070017AC50 /* Products */,
+				4F92991B78CB58788C919283 /* Pods */,
+				C27567893B8B33701BB6C5DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB35023A27EF90070017AC50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB35023927EF90070017AC50 /* Mars-Weather-App.app */,
+				EB35024F27EF90080017AC50 /* Mars-Weather-AppTests.xctest */,
+				EB35025927EF90080017AC50 /* Mars-Weather-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB35023B27EF90070017AC50 /* Mars-Weather-App */ = {
+			isa = PBXGroup;
+			children = (
+				EB35023C27EF90070017AC50 /* AppDelegate.swift */,
+				EB35023E27EF90070017AC50 /* SceneDelegate.swift */,
+				EB35024027EF90070017AC50 /* ViewController.swift */,
+				EB35024227EF90070017AC50 /* Main.storyboard */,
+				EB35024527EF90080017AC50 /* Assets.xcassets */,
+				EB35024727EF90080017AC50 /* LaunchScreen.storyboard */,
+				EB35024A27EF90080017AC50 /* Info.plist */,
+			);
+			path = "Mars-Weather-App";
+			sourceTree = "<group>";
+		};
+		EB35025227EF90080017AC50 /* Mars-Weather-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB35025327EF90080017AC50 /* Mars_Weather_AppTests.swift */,
+			);
+			path = "Mars-Weather-AppTests";
+			sourceTree = "<group>";
+		};
+		EB35025C27EF90080017AC50 /* Mars-Weather-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB35025D27EF90080017AC50 /* Mars_Weather_AppUITests.swift */,
+				EB35025F27EF90080017AC50 /* Mars_Weather_AppUITestsLaunchTests.swift */,
+			);
+			path = "Mars-Weather-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB35023827EF90070017AC50 /* Mars-Weather-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB35026327EF90080017AC50 /* Build configuration list for PBXNativeTarget "Mars-Weather-App" */;
+			buildPhases = (
+				C98868916A16D2625B9F2D24 /* [CP] Check Pods Manifest.lock */,
+				EB35023527EF90070017AC50 /* Sources */,
+				EB35023627EF90070017AC50 /* Frameworks */,
+				EB35023727EF90070017AC50 /* Resources */,
+				5F42613FB6ED52F206E7121D /* [CP] Embed Pods Frameworks */,
+				948BB01411867A5A827F00B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mars-Weather-App";
+			productName = "Mars-Weather-App";
+			productReference = EB35023927EF90070017AC50 /* Mars-Weather-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB35024E27EF90080017AC50 /* Mars-Weather-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB35026627EF90080017AC50 /* Build configuration list for PBXNativeTarget "Mars-Weather-AppTests" */;
+			buildPhases = (
+				EB35024B27EF90080017AC50 /* Sources */,
+				EB35024C27EF90080017AC50 /* Frameworks */,
+				EB35024D27EF90080017AC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB35025127EF90080017AC50 /* PBXTargetDependency */,
+			);
+			name = "Mars-Weather-AppTests";
+			productName = "Mars-Weather-AppTests";
+			productReference = EB35024F27EF90080017AC50 /* Mars-Weather-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB35025827EF90080017AC50 /* Mars-Weather-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB35026927EF90080017AC50 /* Build configuration list for PBXNativeTarget "Mars-Weather-AppUITests" */;
+			buildPhases = (
+				EB35025527EF90080017AC50 /* Sources */,
+				EB35025627EF90080017AC50 /* Frameworks */,
+				EB35025727EF90080017AC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB35025B27EF90080017AC50 /* PBXTargetDependency */,
+			);
+			name = "Mars-Weather-AppUITests";
+			productName = "Mars-Weather-AppUITests";
+			productReference = EB35025927EF90080017AC50 /* Mars-Weather-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB35023127EF90070017AC50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EB35023827EF90070017AC50 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EB35024E27EF90080017AC50 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EB35023827EF90070017AC50;
+					};
+					EB35025827EF90080017AC50 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EB35023827EF90070017AC50;
+					};
+				};
+			};
+			buildConfigurationList = EB35023427EF90070017AC50 /* Build configuration list for PBXProject "Mars-Weather-App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB35023027EF90070017AC50;
+			productRefGroup = EB35023A27EF90070017AC50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB35023827EF90070017AC50 /* Mars-Weather-App */,
+				EB35024E27EF90080017AC50 /* Mars-Weather-AppTests */,
+				EB35025827EF90080017AC50 /* Mars-Weather-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB35023727EF90070017AC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35024927EF90080017AC50 /* LaunchScreen.storyboard in Resources */,
+				EB35024627EF90080017AC50 /* Assets.xcassets in Resources */,
+				EB35024427EF90070017AC50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35024D27EF90080017AC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35025727EF90080017AC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F42613FB6ED52F206E7121D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948BB01411867A5A827F00B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mars-Weather-App/Pods-Mars-Weather-App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C98868916A16D2625B9F2D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mars-Weather-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB35023527EF90070017AC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35024127EF90070017AC50 /* ViewController.swift in Sources */,
+				EB35023D27EF90070017AC50 /* AppDelegate.swift in Sources */,
+				EB35023F27EF90070017AC50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35024B27EF90080017AC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35025427EF90080017AC50 /* Mars_Weather_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35025527EF90080017AC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35026027EF90080017AC50 /* Mars_Weather_AppUITestsLaunchTests.swift in Sources */,
+				EB35025E27EF90080017AC50 /* Mars_Weather_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB35025127EF90080017AC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB35023827EF90070017AC50 /* Mars-Weather-App */;
+			targetProxy = EB35025027EF90080017AC50 /* PBXContainerItemProxy */;
+		};
+		EB35025B27EF90080017AC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB35023827EF90070017AC50 /* Mars-Weather-App */;
+			targetProxy = EB35025A27EF90080017AC50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB35024227EF90070017AC50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB35024327EF90070017AC50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB35024727EF90080017AC50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB35024827EF90080017AC50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB35026127EF90080017AC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB35026227EF90080017AC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB35026427EF90080017AC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A41C3745C5826E5F624DCA5 /* Pods-Mars-Weather-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 359U585S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mars-Weather-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.com.Mars-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB35026527EF90080017AC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32E19634D666BF08FBF169D /* Pods-Mars-Weather-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 359U585S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mars-Weather-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.com.Mars-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB35026727EF90080017AC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 359U585S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.com.Mars-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mars-Weather-App.app/Mars-Weather-App";
+			};
+			name = Debug;
+		};
+		EB35026827EF90080017AC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 359U585S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.com.Mars-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mars-Weather-App.app/Mars-Weather-App";
+			};
+			name = Release;
+		};
+		EB35026A27EF90080017AC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 359U585S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.com.Mars-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mars-Weather-App";
+			};
+			name = Debug;
+		};
+		EB35026B27EF90080017AC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 359U585S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.com.Mars-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mars-Weather-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB35023427EF90070017AC50 /* Build configuration list for PBXProject "Mars-Weather-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35026127EF90080017AC50 /* Debug */,
+				EB35026227EF90080017AC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB35026327EF90080017AC50 /* Build configuration list for PBXNativeTarget "Mars-Weather-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35026427EF90080017AC50 /* Debug */,
+				EB35026527EF90080017AC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB35026627EF90080017AC50 /* Build configuration list for PBXNativeTarget "Mars-Weather-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35026727EF90080017AC50 /* Debug */,
+				EB35026827EF90080017AC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB35026927EF90080017AC50 /* Build configuration list for PBXNativeTarget "Mars-Weather-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35026A27EF90080017AC50 /* Debug */,
+				EB35026B27EF90080017AC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB35023127EF90070017AC50 /* Project object */;
+}
