@@ -16,22 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mars_surface" translatesAutoresizingMaskIntoConstraints="NO" id="Ozp-rX-A6g">
-                                <rect key="frame" x="-738" y="-89" width="1920" height="1080"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mars_surface" translatesAutoresizingMaskIntoConstraints="NO" id="4zv-M5-gVl">
+                                <rect key="frame" x="-1192" y="-1324" width="1637" height="3559"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3559" id="5IF-6l-r5W"/>
+                                    <constraint firstAttribute="width" constant="1637" id="UNC-7D-jqv"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="comet" translatesAutoresizingMaskIntoConstraints="NO" id="WMZ-zz-rYu">
-                                <rect key="frame" x="106" y="44" width="346" height="172"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comet" translatesAutoresizingMaskIntoConstraints="NO" id="ZW7-bb-kYa">
+                                <rect key="frame" x="174" y="44" width="240" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4zv-M5-gVl" secondAttribute="bottom" constant="-1339" id="38Y-xo-wdd"/>
+                            <constraint firstAttribute="trailing" secondItem="4zv-M5-gVl" secondAttribute="trailing" constant="-31" id="3Ss-h7-hO2"/>
+                            <constraint firstItem="4zv-M5-gVl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-1192" id="J0Y-sY-uKn"/>
+                            <constraint firstItem="4zv-M5-gVl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-1324" id="qn8-8b-BdJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-891.304347826087" y="391.74107142857139"/>
+            <point key="canvasLocation" x="-736.23188405797111" y="-239.73214285714283"/>
         </scene>
     </scenes>
     <resources>
